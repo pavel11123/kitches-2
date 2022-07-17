@@ -17,8 +17,7 @@ function App() {
       <main className="main">
         <div className="content">
           <div className="container">
-
-          <UploadForm />
+            <UploadForm />
 
             <div className="content-top">
               <ul className="d-flex">

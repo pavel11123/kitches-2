@@ -57,17 +57,32 @@ function Footer() {
             <ul className="society d-flex">
               <a href="/#">
                 <li>
-                  <img src="/img/icon/youtube.svg" alt="youtube" />
+                  <img
+                    src="/img/icon/youtube.svg"
+                    alt="youtube"
+                    width="28"
+                    height="21"
+                  />
                 </li>
               </a>
               <a href="/#">
                 <li>
-                  <img src="/img/icon/vk.svg" alt="youtube" />
+                  <img
+                    src="/img/icon/vk.svg"
+                    alt="youtube"
+                    width="22"
+                    height="22"
+                  />
                 </li>
               </a>
               <a href="/#">
                 <li>
-                  <img src="/img/icon/tt.svg" alt="youtube" />
+                  <img
+                    src="/img/icon/tt.svg"
+                    alt="youtube"
+                    width="22"
+                    height="22"
+                  />
                 </li>
               </a>
             </ul>
