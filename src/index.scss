@@ -113,6 +113,10 @@ body {
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .backdrop img {
   display: block;
@@ -446,7 +450,7 @@ body {
 // ------------- content CARD start-------------
 .content-main {
   padding: rem(75) 0 rem(170) 0;
-  background-image: url(../public/img/back/back.png);
+  background-image: url(../public/img/back/back.webp);
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -537,7 +541,7 @@ body {
 // ------------- footer start-------------
 .footer {
   flex: 0 0 auto;
-  background-image: url(../public/img/back/back.png);
+  background-image: url(../public/img/back/back.webp);
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -674,6 +678,17 @@ body {
 
   @media (max-width: 600px) {
     padding: adaptiv-num-rem(15, 22, 600, 320) adaptiv-num-rem(35, 70, 600, 320);
+  }
+}
+
+.footer__logo {
+  max-width: 290px;
+  max-height: 97px;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
   }
 }
 
